@@ -1,0 +1,31 @@
+[package]
+name = "privacy-transfer"
+version = "0.1.0"
+description = "Privacy-preserving transfer program with encrypted balances"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "privacy_transfer"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+# Suppress warnings from Anchor framework macros
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+
+[dependencies]
+anchor-lang = "0.32.1"
+anchor-spl = "0.32.1"
+sha2 = "0.10"
+sha3 = "0.10"
+
+[dev-dependencies]
+solana-program-test = "2.0"
+solana-sdk = "2.0"

@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+target/
+programs/**/target/
+
+# Wallet data (IMPORTANT: Never commit wallet files!)
+.wallet/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test accounts and storage
+test-accounts/
+test-storage-*
+test-storage-transfer-flow-1/
+test-storage-transfer-flow-2/
+test-storage-transfer-flow-3/
+test-storage-transfer-flow-4/

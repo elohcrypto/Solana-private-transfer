@@ -1,0 +1,18 @@
+{
+  "transaction": "2v7juYBQA4X8CtycVXPWGihFbUBoe8BrxfAGDQEWZV4TGosJQxzRG5dYbGk9kug2TPKgTPGg2L1sfFYpAwWTrdt6",
+  "explorers": {
+    "solana": "https://explorer.solana.com/tx/2v7juYBQA4X8CtycVXPWGihFbUBoe8BrxfAGDQEWZV4TGosJQxzRG5dYbGk9kug2TPKgTPGg2L1sfFYpAwWTrdt6?cluster=devnet",
+    "solscan": "https://solscan.io/tx/2v7juYBQA4X8CtycVXPWGihFbUBoe8BrxfAGDQEWZV4TGosJQxzRG5dYbGk9kug2TPKgTPGg2L1sfFYpAwWTrdt6?cluster=devnet"
+  },
+  "sender": "9gsnL5p73qUAFdNiLCKbBBtoAoJk9No1Ki4SomvPxjdM",
+  "recipient": "4QX4FLdFtY1ggkHBZQXa3r8faTCAKmk1emWt7NZcYfGR",
+  "solAmount": 0.01,
+  "hiddenTokenAmount": "1000",
+  "commitment": "08905c494b8e710097da72750139e1ae80179359f62eab036cebbd58029e5c4f",
+  "challenge": "3200670921470693152010658143336697889695463123876536927388379970373408547562",
+  "response": "6438033358576423681826056789506003700763954043585880730575954024712152158098",
+  "blinding": "4523577068743170247316374317811568464146261012968115195058298373474383533236",
+  "timestamp": "2025-11-08T08:59:37.076Z",
+  "blockTime": "2025-11-08T08:59:33.000Z",
+  "slot": 420121847
+}
